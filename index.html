@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friend Request</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="window">
+
+    <!-- TOP BAR -->
+    <div class="title-bar">
+      <div class="heart">♡</div>
+
+      <div class="window-buttons">
+        <button class="window-button minimize">—</button>
+        <button class="window-button maximize">□</button>
+        <button class="window-button close">×</button>
+      </div>
+    </div>
+
+
+    <div class="window-content">
+
+      <!-- HEADER -->
+      <div class="header">
+
+        <div class="request-title">
+          Friend Request
+        </div>
+
+        <div class="search-box">
+          <span>⌕</span>
+        </div>
+
+      </div>
+
+
+      <!-- PROFILES -->
+      <div class="profiles">
+
+        <!-- TOP ROW - 3 -->
+        <div class="profile-row top-row">
+
+          <button class="profile-card active" data-profile="keonho">
+            <div class="mini-avatar">
+              <img src="keonho.png" alt="Keonho">
+            </div>
+            <span>Keonho</span>
+          </button>
+
+          <button class="profile-card" data-profile="seonghyeon">
+            <div class="mini-avatar">
+              <img src="seonghyeon.png" alt="Seonghyeon">
+            </div>
+            <span>Seonghyeon</span>
+          </button>
+
+          <button class="profile-card" data-profile="juhoon">
+            <div class="mini-avatar">
+              <img src="juhoon.png" alt="Juhoon">
+            </div>
+            <span>Juhoon</span>
+          </button>
+
+        </div>
+
+
+        <!-- INFORMATION -->
+        <div class="information-area">
+
+          <div class="selected-profile">
+
+            <div class="avatar">
+              <img id="mainAvatar" src="keonho.png" alt="Keonho">
+            </div>
+
+            <span id="mainUsername">Keonho</span>
+
+          </div>
+
+          <div class="message" id="message"></div>
+
+          <div class="buttons">
+
+            <button id="acceptBtn" class="action accept">
+              accept &lt;3
+            </button>
+
+            <button id="declineBtn" class="action decline">
+              decline :(
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- BOTTOM ROW - 4 -->
+        <div class="profile-row bottom-row">
+
+          <button class="profile-card" data-profile="martin">
+            <div class="mini-avatar">
+              <img src="martin.png" alt="Martin">
+            </div>
+            <span>Martin</span>
+          </button>
+
+          <button class="profile-card" data-profile="james">
+            <div class="mini-avatar">
+              <img src="james.png" alt="James">
+            </div>
+            <span>James</span>
+          </button>
+
+          <button class="profile-card" data-profile="wonhee">
+            <div class="mini-avatar">
+              <img src="wonhee.png" alt="Wonhee">
+            </div>
+            <span>Wonhee</span>
+          </button>
+
+          <button class="profile-card" data-profile="yunah">
+            <div class="mini-avatar">
+              <img src="yunah.png" alt="Yunah">
+            </div>
+            <span>Yunah</span>
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- BOTTOM PINK AREA -->
+      <div class="bottom-bar"></div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
